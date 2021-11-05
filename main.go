@@ -38,9 +38,13 @@ func main() {
 	}
 
 	// & = operator to give the memory address of the value (jim in this case)
-	jimPointer := &jim // Now jimPointer is holding the address of jim
+	// jimPointer := &jim 
+	// Now jimPointer is holding the address of jim
+	// jimPointer.updateName("Dwight")
+	// jim.printPerson()
 
-	jimPointer.updateName("Dwight")
+	// Shortcut to do the above code:
+	jim.updateName("Dwight")
 	jim.printPerson()
 }
 
